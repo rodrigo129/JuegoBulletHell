@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Enemigos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Enemigos</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Crodrigo%5Cdesktop%5Cproyecto%20lopcarp%5Cjuegobullethell%5Cjuego%5Cenemigos.py">c:\users\rodrigo\desktop\proyecto lopcarp\juegobullethell\juego\enemigos.py</a></font></td></tr></table>
+    <p><tt>@author:&nbsp;Rodrigo&nbsp;Vargas<br>
+modulos&nbsp;encargados&nbsp;del&nbsp;comportamiento&nbsp;los&nbsp;enemigos</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="math.html">math</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="Enemigos.html#Enemigo">Enemigo</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Enemigos.html#Enemigo2">Enemigo2</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Enemigos.html#Enemigo3">Enemigo3</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Enemigos.html#Enemigo4">Enemigo4</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Enemigos.html#Enemigo5">Enemigo5</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Enemigo">class <strong>Enemigo</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Enemigo-alianza">Enemigo</a>(path:&nbsp;dict,&nbsp;keys:&nbsp;list)<br>
+&nbsp;<br>
+<a href="#Enemigo">Enemigo</a>&nbsp;simple,&nbsp;sigue&nbsp;un&nbsp;recorrido&nbsp;y&nbsp;dispara&nbsp;siempre&nbsp;que&nbsp;puede&nbsp;hacia&nbsp;el&nbsp;jugados<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Enemigo-Actualizar"><strong>Actualizar</strong></a>(self, objetivo)</dt></dl>
+
+<dl><dt><a name="Enemigo-Dañar"><strong>Dañar</strong></a>(self, daño)</dt></dl>
+
+<dl><dt><a name="Enemigo-Fin"><strong>Fin</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-GetAlianza"><strong>GetAlianza</strong></a>(self) -&gt; str</dt><dd><tt>indica&nbsp;a&nbsp;que&nbsp;bando&nbsp;pertence&nbsp;la&nbsp;entidad<br>
+:rtype:&nbsp;str</tt></dd></dl>
+
+<dl><dt><a name="Enemigo-GetCentro"><strong>GetCentro</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-GetIndex"><strong>GetIndex</strong></a>(self)</dt><dd><tt>#&nbsp;def&nbsp;DisparoPrimario(self):##?no&nbsp;en&nbsp;uso?<br>
+#&nbsp;return&nbsp;self.<strong>ArmaPrimaria</strong>.Disparar(self.<strong>Modo</strong>,self.<a href="#Enemigo-GetY">GetY</a>()+13,self.<a href="#Enemigo-GetX">GetX</a>()+20,23)</tt></dd></dl>
+
+<dl><dt><a name="Enemigo-GetPosicion"><strong>GetPosicion</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-GetTamaño"><strong>GetTamaño</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-GetTipo"><strong>GetTipo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-GetTodo"><strong>GetTodo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-GetX"><strong>GetX</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-GetY"><strong>GetY</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-PasarTiempo"><strong>PasarTiempo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo-SetPosicion"><strong>SetPosicion</strong></a>(self, xy: list)</dt></dl>
+
+<dl><dt><a name="Enemigo-SetX"><strong>SetX</strong></a>(self, X)</dt></dl>
+
+<dl><dt><a name="Enemigo-SetY"><strong>SetY</strong></a>(self, Y)</dt></dl>
+
+<dl><dt><a name="Enemigo-__init__"><strong>__init__</strong></a>(self, path: dict, keys: list)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Modo</strong> = 'Normal'</dl>
+
+<dl><dt><strong>TExistencia</strong> = 0</dl>
+
+<dl><dt><strong>Tamaño</strong> = '64'</dl>
+
+<dl><dt><strong>Tipo</strong> = 'Estatico'</dl>
+
+<dl><dt><strong>alianza</strong> = 'Enemigo'</dl>
+
+<dl><dt><strong>estado</strong> = None</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Enemigo2">class <strong>Enemigo2</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Enemigo2">Enemigo2</a>(pInicio:&nbsp;list,&nbsp;velocidad:&nbsp;int,&nbsp;alturaAtaque:&nbsp;int)<br>
+&nbsp;<br>
+enemigo&nbsp;que&nbsp;sigue&nbsp;la&nbsp;coordenada&nbsp;x&nbsp;del&nbsp;jugador,&nbsp;dispara&nbsp;6<br>
+disparos&nbsp;por&nbsp;ronda<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Enemigo2-Actualizar"><strong>Actualizar</strong></a>(self, objetivo)</dt></dl>
+
+<dl><dt><a name="Enemigo2-Dañar"><strong>Dañar</strong></a>(self, daño)</dt></dl>
+
+<dl><dt><a name="Enemigo2-Fin"><strong>Fin</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo2-GetAlianza"><strong>GetAlianza</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="Enemigo2-GetIndex"><strong>GetIndex</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo2-GetPosicion"><strong>GetPosicion</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo2-GetTamaño"><strong>GetTamaño</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo2-GetTipo"><strong>GetTipo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo2-GetTodo"><strong>GetTodo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo2-GetX"><strong>GetX</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo2-GetY"><strong>GetY</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo2-__init__"><strong>__init__</strong></a>(self, pInicio: list, velocidad: int, alturaAtaque: int)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Alianza</strong> = 'Enemigo'</dl>
+
+<dl><dt><strong>Index</strong> = 4</dl>
+
+<dl><dt><strong>Tamaño</strong> = '64'</dl>
+
+<dl><dt><strong>Tipo</strong> = 'Estatico'</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Enemigo3">class <strong>Enemigo3</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Enemigo3">Enemigo3</a>(pInicio:&nbsp;list,&nbsp;velocidad:&nbsp;int,&nbsp;alturaAtaque:&nbsp;int,&nbsp;velocidadAtaque)<br>
+&nbsp;<br>
+enemigo&nbsp;que&nbsp;va&nbsp;a&nbsp;una&nbsp;posiscion&nbsp;indicada&nbsp;y&nbsp;ataca&nbsp;a&nbsp;ciegas<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Enemigo3-Actualizar"><strong>Actualizar</strong></a>(self, objetivo)</dt></dl>
+
+<dl><dt><a name="Enemigo3-Dañar"><strong>Dañar</strong></a>(self, daño)</dt></dl>
+
+<dl><dt><a name="Enemigo3-Fin"><strong>Fin</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo3-GetAlianza"><strong>GetAlianza</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="Enemigo3-GetIndex"><strong>GetIndex</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo3-GetPosicion"><strong>GetPosicion</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo3-GetTamaño"><strong>GetTamaño</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo3-GetTipo"><strong>GetTipo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo3-GetTodo"><strong>GetTodo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo3-GetX"><strong>GetX</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo3-GetY"><strong>GetY</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo3-__init__"><strong>__init__</strong></a>(self, pInicio: list, velocidad: int, alturaAtaque: int, velocidadAtaque)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Alianza</strong> = 'Enemigo'</dl>
+
+<dl><dt><strong>Index</strong> = 0</dl>
+
+<dl><dt><strong>Tamaño</strong> = '128'</dl>
+
+<dl><dt><strong>Tipo</strong> = 'Estatico'</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Enemigo4">class <strong>Enemigo4</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>NO&nbsp;EN&nbsp;USO,INCOMPLETO,&nbsp;REQUIERE&nbsp;DisparoClusterAnidado<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Enemigo5">class <strong>Enemigo5</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Enemigo5">Enemigo5</a>(xy,&nbsp;vida,&nbsp;velocidad,&nbsp;radio,&nbsp;constante,&nbsp;duracion)<br>
+&nbsp;<br>
+enemigo&nbsp;que&nbsp;busca&nbsp;al&nbsp;jugador,&nbsp;giera&nbsp;al&nbsp;rededor&nbsp;de&nbsp;el&nbsp;dejando<br>
+disparos&nbsp;estaticos&nbsp;en&nbsp;el&nbsp;proceso<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Enemigo5-Actualizar"><strong>Actualizar</strong></a>(self, objetivo)</dt></dl>
+
+<dl><dt><a name="Enemigo5-Dañar"><strong>Dañar</strong></a>(self, daño)</dt></dl>
+
+<dl><dt><a name="Enemigo5-Fin"><strong>Fin</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetAlianza"><strong>GetAlianza</strong></a>(self) -&gt; str</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetAngulo"><strong>GetAngulo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetIndex"><strong>GetIndex</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetPosicion"><strong>GetPosicion</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetTamaño"><strong>GetTamaño</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetTipo"><strong>GetTipo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetTodo"><strong>GetTodo</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetX"><strong>GetX</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-GetY"><strong>GetY</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Enemigo5-__init__"><strong>__init__</strong></a>(self, xy, vida, velocidad, radio, constante, duracion)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

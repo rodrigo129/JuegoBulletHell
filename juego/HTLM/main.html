@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module main</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>main</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Crodrigo%5Cdesktop%5Cproyecto%20lopcarp%5Cjuegobullethell%5Cjuego%5Cmain.py">c:\users\rodrigo\desktop\proyecto lopcarp\juegobullethell\juego\main.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="ctypes.html">ctypes</a><br>
+<a href="json.html">json</a><br>
+</td><td width="25%" valign=top><a href="math.html">math</a><br>
+<a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="pygame.html">pygame</a><br>
+<a href="random.html">random</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+<a href="wave.html">wave</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="main.html#HojaSprites">HojaSprites</a>
+</font></dt><dt><font face="helvetica, arial"><a href="main.html#HojaSpritesRotables">HojaSpritesRotables</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="HojaSprites">class <strong>HojaSprites</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#HojaSprites">HojaSprites</a>(NombreArchivo,&nbsp;columnas,&nbsp;filas)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="HojaSprites-__init__"><strong>__init__</strong></a>(self, NombreArchivo, columnas, filas)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="HojaSprites-dibujar"><strong>dibujar</strong></a>(self, superficie, indice, XY)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="HojaSpritesRotables">class <strong>HojaSpritesRotables</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#HojaSpritesRotables">HojaSpritesRotables</a>(NombreArchivo,&nbsp;columnas,&nbsp;filas,&nbsp;proporcion=(0.75,&nbsp;1.25))<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="HojaSpritesRotables-MaskSet"><strong>MaskSet</strong></a>(self, indice: int, XY: list, angulo, handle=4)</dt></dl>
+
+<dl><dt><a name="HojaSpritesRotables-RectSet"><strong>RectSet</strong></a>(self, indice: int, XY: list, angulo, handle=4)</dt></dl>
+
+<dl><dt><a name="HojaSpritesRotables-__init__"><strong>__init__</strong></a>(self, NombreArchivo, columnas, filas, proporcion=(0.75, 1.25))</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="HojaSpritesRotables-dibujar"><strong>dibujar</strong></a>(self, superficie, indice, XY, angulo, handle=4)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-Dibujar"><strong>Dibujar</strong></a>(self, SuperficiePrincipal, ListaEntidades, ListaEsenarios=[])</dt></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>AltoCelda</strong> = 64.0<br>
+<strong>AltoCeldaNativa</strong> = 64<br>
+<strong>AltoMaximo</strong> = 1080<br>
+<strong>AlturaFuente</strong> = 25<br>
+<strong>AlturaNativa</strong> = 1024<br>
+<strong>AnchoCelda</strong> = 64.0<br>
+<strong>AnchoCeldaNativa</strong> = 64<br>
+<strong>AnchoMaximo</strong> = 1920<br>
+<strong>AnchoNativo</strong> = 1920<br>
+<strong>Clock</strong> = &lt;Clock(fps=0.00)&gt;<br>
+<strong>Cuadros</strong> = 0<br>
+<strong>DirectoriSprites</strong> = r'C:\Users\Rodrigo\Desktop\proyecto Lopcarp\JuegoBulletHell\juego\sprites'<br>
+<strong>EscaladoAlto</strong> = 1.0<br>
+<strong>EscaladoAncho</strong> = 1.0<br>
+<strong>Estado</strong> = ['Inicio']<br>
+<strong>FPS</strong> = 60<br>
+<strong>FramesEnNivel</strong> = 0<br>
+<strong>GRIS</strong> = (155, 155, 155)<br>
+<strong>HojaDisparos</strong> = &lt;main.HojaSprites object&gt;<br>
+<strong>HojaEnemigoEnTest</strong> = &lt;main.HojaSprites object&gt;<br>
+<strong>HojaEnemigos</strong> = &lt;main.HojaSprites object&gt;<br>
+<strong>HojaEnemigosRotablesX64</strong> = &lt;main.HojaSpritesRotables object&gt;<br>
+<strong>HojaEnemigosX128</strong> = &lt;main.HojaSprites object&gt;<br>
+<strong>HojaHUD</strong> = &lt;main.HojaSprites object&gt;<br>
+<strong>HojaJefe1</strong> = &lt;main.HojaSprites object&gt;<br>
+<strong>HojaJugador</strong> = &lt;main.HojaSprites object&gt;<br>
+<strong>HojaPantallas</strong> = &lt;main.HojaSprites object&gt;<br>
+<strong>ListaDebug</strong> = []<br>
+<strong>ModoVentana</strong> = True<br>
+<strong>NCeldasAlto</strong> = 16<br>
+<strong>NCeldasAncho</strong> = 30<br>
+<strong>ProporcionEscaladoAlto</strong> = 1.0<br>
+<strong>ProporcionEscaladoAncho</strong> = 1.0<br>
+<strong>ROJO</strong> = (255, 0, 0)<br>
+<strong>Tiempo</strong> = 0<br>
+<strong>VERDE</strong> = (0, 255, 0)<br>
+<strong>alto</strong> = 1024<br>
+<strong>ancho</strong> = 1920<br>
+<strong>clock</strong> = False<br>
+<strong>debug</strong> = False<br>
+<strong>event</strong> = &lt;Event(2-KeyDown {'unicode': 'z', 'key': 122, 'mod': 0, 'scancode': 44, 'window': None})&gt;<br>
+<strong>file_wav</strong> = &lt;wave.Wave_read object&gt;<br>
+<strong>flag</strong> = True<br>
+<strong>frequency</strong> = 32000<br>
+<strong>fuente</strong> = &lt;pygame.font.Font object&gt;<br>
+<strong>fullScreen</strong> = True<br>
+<strong>jugador</strong> = &lt;Nave.Nave object&gt;<br>
+<strong>listaDisparos</strong> = []<br>
+<strong>listaEntidades</strong> = []<br>
+<strong>listaEntidadesAuxliar</strong> = []<br>
+<strong>seleccion</strong> = 2<br>
+<strong>sistema</strong> = 'win'<br>
+<strong>user32</strong> = &lt;WinDLL 'user32', handle 7ffdc8640000&gt;<br>
+<strong>vel</strong> = 10<br>
+<strong>ventana</strong> = &lt;Surface(Dead Display)&gt;</td></tr></table>
+</body></html>

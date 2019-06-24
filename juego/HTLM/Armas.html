@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Armas</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Armas</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Crodrigo%5Cdesktop%5Cproyecto%20lopcarp%5Cjuegobullethell%5Cjuego%5Carmas.py">c:\users\rodrigo\desktop\proyecto lopcarp\juegobullethell\juego\armas.py</a></font></td></tr></table>
+    <p><tt>@author:&nbsp;Rodrigo&nbsp;Vargas<br>
+modulos&nbsp;encargados&nbsp;de&nbsp;los&nbsp;comportamientos&nbsp;de&nbsp;las&nbsp;armas</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="math.html">math</a><br>
+</td><td width="25%" valign=top><a href="random.html">random</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="Armas.html#Anillo">Anillo</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Armas.html#ArmaAtaqueTriangular">ArmaAtaqueTriangular</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Armas.html#ArmaBarrera">ArmaBarrera</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Armas.html#ArmaEstandarApuntada">ArmaEstandarApuntada</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Armas.html#ArmaLaser">ArmaLaser</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Armas.html#ArmaNormal">ArmaNormal</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Anillo">class <strong>Anillo</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Anillo-Anillo">Anillo</a>(constante,&nbsp;aceleracion,&nbsp;alianza)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Anillo-Actualizar"><strong>Actualizar</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Anillo-Disparar"><strong>Disparar</strong></a>(self, xy, vel)</dt></dl>
+
+<dl><dt><a name="Anillo-__init__"><strong>__init__</strong></a>(self, constante, aceleracion, alianza)</dt><dd><tt>Attributes:</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Angulo</strong> = 360</dl>
+
+<dl><dt><strong>Anillo</strong> = 1</dl>
+
+<dl><dt><strong>XY</strong> = None</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ArmaAtaqueTriangular">class <strong>ArmaAtaqueTriangular</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ArmaAtaqueTriangular">ArmaAtaqueTriangular</a>(constante,&nbsp;alianza,&nbsp;angulo,&nbsp;desfaseAngulo)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="ArmaAtaqueTriangular-Actualizar"><strong>Actualizar</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaAtaqueTriangular-Disparar"><strong>Disparar</strong></a>(self, xy, vel)</dt></dl>
+
+<dl><dt><a name="ArmaAtaqueTriangular-__init__"><strong>__init__</strong></a>(self, constante, alianza, angulo, desfaseAngulo)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ArmaBarrera">class <strong>ArmaBarrera</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ArmaBarrera">ArmaBarrera</a>(constante,&nbsp;duracion,&nbsp;daño,&nbsp;indice,&nbsp;alianza)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="ArmaBarrera-Actualizar"><strong>Actualizar</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaBarrera-Disparar"><strong>Disparar</strong></a>(self, xy)</dt></dl>
+
+<dl><dt><a name="ArmaBarrera-__init__"><strong>__init__</strong></a>(self, constante, duracion, daño, indice, alianza)</dt><dd><tt>Attributes:</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Droper</strong> = 1</dl>
+
+<dl><dt><strong>XY</strong> = None</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ArmaEstandarApuntada">class <strong>ArmaEstandarApuntada</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ArmaEstandarApuntada">ArmaEstandarApuntada</a>(constante:&nbsp;int,&nbsp;alianza:&nbsp;str,&nbsp;notStandby=False)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="ArmaEstandarApuntada-Actualizar"><strong>Actualizar</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaEstandarApuntada-Apuntar"><strong>Apuntar</strong></a>(self, XYPropio: list, XYObjetivo: list)</dt></dl>
+
+<dl><dt><a name="ArmaEstandarApuntada-Disparar"><strong>Disparar</strong></a>(self, XY: list)</dt></dl>
+
+<dl><dt><a name="ArmaEstandarApuntada-__init__"><strong>__init__</strong></a>(self, constante: int, alianza: str, notStandby=False)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Angulo</strong> = 0</dl>
+
+<dl><dt><strong>Cañon1</strong> = 1</dl>
+
+<dl><dt><strong>Constante</strong> = 60</dl>
+
+<dl><dt><strong>Tiempo</strong> = 0</dl>
+
+<dl><dt><strong>fase</strong> = 1</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ArmaLaser">class <strong>ArmaLaser</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ArmaLaser">ArmaLaser</a>(vidaMaxima,&nbsp;tiempoCambio,&nbsp;alianza,&nbsp;angulo)<br>
+&nbsp;<br>
+<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="ArmaLaser-Actualizar"><strong>Actualizar</strong></a>(self, xy)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-Contador"><strong>Contador</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-Dañar"><strong>Dañar</strong></a>(self, daño)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-Disparar"><strong>Disparar</strong></a>(self, xy, angulo, iteracion)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-EsFuncional"><strong>EsFuncional</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-EsFuncionalLaser1"><strong>EsFuncionalLaser1</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-EsFuncionalLaser2"><strong>EsFuncionalLaser2</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-GetStatus"><strong>GetStatus</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-Reset"><strong>Reset</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaLaser-__init__"><strong>__init__</strong></a>(self, vidaMaxima, tiempoCambio, alianza, angulo)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ArmaNormal">class <strong>ArmaNormal</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ArmaNormal">ArmaNormal</a>(vidaMaxima,&nbsp;constante,&nbsp;alianza)<br>
+&nbsp;<br>
+Attributes:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Cañon1&nbsp;(int):indicador&nbsp;cañon&nbsp;diponible&nbsp;para&nbsp;disparar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Cañon2&nbsp;(int):indicador&nbsp;cañon&nbsp;diponible&nbsp;para&nbsp;disparar<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Constante&nbsp;(int):tiempo&nbsp;de&nbsp;recarga&nbsp;de&nbsp;cañon<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Tiempo&nbsp;(int):contador&nbsp;de&nbsp;recarga&nbsp;de&nbsp;cañon<br>
+&nbsp;&nbsp;&nbsp;&nbsp;fase&nbsp;(int):indicador&nbsp;de&nbsp;turnos&nbsp;de&nbsp;cañon<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="ArmaNormal-Actualizar"><strong>Actualizar</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaNormal-Dañar"><strong>Dañar</strong></a>(self, daño)</dt></dl>
+
+<dl><dt><a name="ArmaNormal-Disparar"><strong>Disparar</strong></a>(self, Modo, XYRelativo: list, XDesfase)</dt></dl>
+
+<dl><dt><a name="ArmaNormal-EsFuncional"><strong>EsFuncional</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaNormal-EsFuncionalCañon1"><strong>EsFuncionalCañon1</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaNormal-EsFuncionalCañon2"><strong>EsFuncionalCañon2</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaNormal-GetStatus"><strong>GetStatus</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaNormal-Reset"><strong>Reset</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="ArmaNormal-__init__"><strong>__init__</strong></a>(self, vidaMaxima, constante, alianza)</dt><dd><tt>:rtype:&nbsp;<a href="builtins.html#object">object</a></tt></dd></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="ArmaNormal-PedirEnergia"><strong>PedirEnergia</strong></a>()</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>Cañon1</strong> = 1</dl>
+
+<dl><dt><strong>Cañon2</strong> = 0</dl>
+
+<dl><dt><strong>Constante</strong> = 5</dl>
+
+<dl><dt><strong>Tiempo</strong> = 0</dl>
+
+<dl><dt><strong>fase</strong> = 1</dl>
+
+</td></tr></table></td></tr></table>
+</body></html>
